@@ -58,6 +58,7 @@ jobs:
             **Timestamp:** `${{ github.event.head_commit.timestamp || github.event.repository.pushed_at }}`
 
             _Automated notification sent via GitHub Actions_
+            ---------------------------------------------------------------------------------------------------------------
 
       # -------------------------------
       # NON-PUSH EVENTS
