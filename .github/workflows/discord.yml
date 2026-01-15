@@ -3,7 +3,7 @@ name: Discord Repository Notifications
 on:
   push:
     branches:
-      - contents # Change to main/master if needed
+      - vitepress-redo # Change to main/master if needed
 
   pull_request:
     types: [opened, reopened, closed, edited]
